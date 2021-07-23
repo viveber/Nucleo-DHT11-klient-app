@@ -1,7 +1,9 @@
 # The program for the operetion of STM32 Nucleo F401RE platform with DHT-11 sensor
 ## Bin file
 Use [this files](https://github.com/viveber/Nucleo-DHT11-klient-app/tree/master/DHT11(mbed%20files)) in ide.mbed.com to create bin file for Nucleo.
+
 Use some kind of terminal (like terra term) to check if it works.
+
 ![terminal](https://github.com/viveber/Nucleo-DHT11-klient-app/blob/master/pics/terminal.png)
 
 ## Saving information

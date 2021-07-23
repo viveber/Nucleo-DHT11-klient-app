@@ -11,8 +11,10 @@ Run nucleo.py for saving information into csv.
 
 ## Visualization
 Python web app for visuzlisation: app.py (it has auth form, login and password in login.txt)
+
 ![app](https://github.com/viveber/Nucleo-DHT11-klient-app/blob/master/pics/app.png)
 ![auth](https://github.com/viveber/Nucleo-DHT11-klient-app/blob/master/pics/auth.png)
 
 App also has notification function: smtp-alert.py
+
 ![notif](https://github.com/viveber/Nucleo-DHT11-klient-app/blob/master/pics/notifications.png)

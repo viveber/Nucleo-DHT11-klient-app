@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 def send_alert(indicator):
     from_gmail = 'System <nucleoklient@gmail.com>'
     to_gmail = 'Admin <nucleoklient@gmail.com>'
-    username = 'nucleoklient'
-    password = '47banana69'
+    username = '' # email without @gmail.com
+    password = '' # password from email
     msg= MIMEText((str(indicator)+' : показатель вышел за пределы нормы! \n ').encode('utf-8'), _charset='utf-8')
     smtpObj = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     smtpObj.ehlo()
